@@ -8,4 +8,9 @@ through git.
  Staging area is different because it holds files that you want to commit.
  Working directory has all the projects in your file and the repository holds
  the information of all the commits. It is valuable because it allows you
- to specificy the information that you want to commit
+ to specifify the information that you want to commit
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+You can compare your staging area with the last commit and make sure
+That there is a logical difference between the last commit and the one
+That you are a bout to commit 
