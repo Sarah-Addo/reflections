@@ -14,3 +14,18 @@ through git.
 You can compare your staging area with the last commit and make sure
 That there is a logical difference between the last commit and the one
 That you are a bout to commit 
+
+4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Some situations are when you would like to experiment with stuff or want to have
+Two versions of whatever you were working on. Branches would help because it would
+Allow you to have multiple versions of whatever you were working on and then
+Allow you to merge them if you just want there to be one version
+
+5.How do the diagrams help you visualize the branch structure?
+Diagrams help because it allows us to see where commits are and what their parent points to and what branch we are currently on
+
+6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is that the head is changed to one commit and the log is ordered based on the time the commits happen. It is represented in the diagram as so because it is a new commit that has a new name
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The pros are that git will merge without the user having to think much about it. The cons are that when a merge happen where two simlar lines of code have changes then the user must decide on a single change and do the merge manually.
