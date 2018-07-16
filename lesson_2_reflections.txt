@@ -29,3 +29,6 @@ The result is that the head is changed to one commit and the log is ordered base
 
 7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 The pros are that git will merge without the user having to think much about it. The cons are that when a merge happen where two simlar lines of code have changes then the user must decide on a single change and do the merge manually.
+
+8.Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+So that there are not too many commits and so that Git won't ignore a commit that doesn't seem to important to it but is important to the user
