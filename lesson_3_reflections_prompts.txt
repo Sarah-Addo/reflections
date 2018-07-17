@@ -7,3 +7,6 @@ So that there are not too many commits and so that Git won't ignore a commit tha
 
 3.Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Forks are copied repositories from other users that give them credit that you can clone to your local computer and edit to your liking. Clones are exact same repositories that do not give credit to original author. Branches are added to a commit that branches off from the main branch in case you want to keep the original branch the same while wanting to test out some new code.
+
+4.What is the benefit of having a copy of the last known state of the remote stored locally?
+The benefit is that if you want to work offline then you have the last known version that is on github to work with. So you are working on a version that is up to date that you may have edited on another computer or other people have editied. 
